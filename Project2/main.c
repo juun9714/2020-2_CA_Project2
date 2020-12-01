@@ -431,9 +431,6 @@ int main(int argc, char* argv[]) {
 	// last 문자열배열의 크기를 확인하기 위해서 ! 동적할당 위하여 !
 
 
-	//printf("inst 개수, mem인지 reg인지, 메모리 시작 숫자, 메모리 개수 입력 : ");
-	//scanf("%d %s %x %d", &ins_number, mr, &memstart, &memnum);
-	//scanf("%d %s", &ins_number, mr);
 	unsigned char preBuf[1];
 	FILE* pre;
 	pre = fopen(argv[1], "rb");
